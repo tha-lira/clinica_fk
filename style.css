@@ -1,0 +1,31 @@
+/* --- Reset ---*/
+*{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+
+a{
+ text-decoration: none;
+ color: inherit;
+ transition: all 0.5s ease-in-out;
+}
+
+img, picture, video, canvas, svg {
+ display: block;
+ max-width: 100%;
+}
+
+ul, ol {
+ list-style: none;
+}
+
+:root {
+ --primary-color: #3d1834;     /* Cor principal - destaque, botões, links */
+ --secondary-color: #402739;   /* Complementar - rodapé, headers */
+ --accent-color: #d9ac59;      /* Dourado - para ícones, detalhes premium */
+ --neutral-dark: #3b3d40;      /* Texto principal ou plano de fundo escuro */
+ --neutral-black: #070a0d;     /* Linhas, detalhes finos */
+ --neutral-light: #f2f2f2;     /* Fundo geral, áreas brancas */
+ --muted-tone: #a68f84;        /* Fundos suaves, hover, áreas de destaque */
+}
