@@ -1,0 +1,18 @@
+.information-section {
+ padding:  2rem 1rem;
+ background-color: var(--muted-tone);
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: 1rem;
+}
+
+.information-box__title {
+ color: var(--primary-color);
+ font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+ .information-section {
+  grid-template-columns: repeat(3, 1fr);
+ }
+}
