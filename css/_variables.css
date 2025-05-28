@@ -1,0 +1,33 @@
+:root {
+ /* Cores */
+ --primary-color: #0e3d79;      
+ --secondary-color: #114a91;    
+ --accent-color: #25D366;       
+ --neutral-dark: #1f2a36;
+ --neutral-black: #0a0f14;
+ --neutral-light: #f4f7f9;
+ --muted-tone: #cde5f7;
+
+ /* Fontes */
+ --font-primary: 'Varela Round', sans-serif;
+ --font-secondary: 'Roboto', sans-serif;
+
+ /* Font sizes */
+ --font-size-base: 1rem;
+ --font-size-sm: 0.95rem;
+ --font-size-md: 1.2rem;
+ --font-size-lg: 1.8rem;
+ --font-size-xl: 2.5rem;
+ --font-size-xxl: 4rem;
+
+ /* Outros */
+ --border-radius: 8px;
+ --box-shadow-light: 2px 2px 8px rgba(0, 0, 0, 0.2);
+ --box-shadow-heavy: 0 4px 12px rgba(0, 0, 0, 0.05);
+ --box-shadow-hover: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+ /* Transições */
+ --transition-fast: 0.3s ease;
+ --transition-smooth: 0.5s ease-in-out;
+
+}
