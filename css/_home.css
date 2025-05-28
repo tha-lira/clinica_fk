@@ -1,0 +1,66 @@
+/* ---- Home ---- */
+.home-section{
+ background: url(/image/banner-top--small.png) no-repeat center center/cover;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 1rem;
+ font-family: "Roboto", sans-serif;
+ color: var(--neutral-light);
+ padding: 8rem 1rem 5rem 1rem;
+}
+
+.home-section h1{
+ font-size: 1.8rem;
+ text-shadow: 1px 1px 1px var(--neutral-dark);
+ margin-bottom: 1rem;
+}
+
+.home-section h2{
+ font-size: 1rem;
+ text-shadow: 1px 1px 1px var(--neutral-dark);
+ margin-bottom: 1.5rem;
+}
+
+.home-section p{
+ font-size: 0.95rem;
+}
+
+.home-section__button{
+ background-color: var(--primary-color);
+ margin-top: 1rem;
+}
+
+.home-section__button:hover {
+ background-color: var(--secondary-color);
+}
+
+@media (min-width: 768px){
+ .home-section{
+  background: url(/image/banner--top.png)no-repeat center center/cover;
+  height: 100vh;
+  padding: 5rem;
+ }
+
+ .home-section h1{
+  font-size: 3.5rem;
+  text-shadow: 1px 1px 1px var(--neutral-dark);
+  margin-bottom: 1rem;
+ }
+ 
+ .home-section h2{
+  font-size: 1.7rem;
+  text-shadow: 1px 1px 1px var(--neutral-dark);
+  margin-bottom: 1.5rem;
+ }
+ 
+ .home-section p{
+  font-size: 1.3rem;
+ }
+  
+ .home-section__button{
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  margin-top: 1rem;
+ }
+}
