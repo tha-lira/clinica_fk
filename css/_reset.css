@@ -1,0 +1,37 @@
+/* --- Reset ---*/
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html {
+ font-size: var(--font-size-base);
+ line-height: 1.8rem;
+ font-family: var(--font-main);
+}
+
+body {
+ background: var(--color-neutral-light);
+ color: var(--color-neutral-black);
+}
+
+a {
+ text-decoration: none;
+ color: inherit;
+ transition: all var(--transition-smooth);
+ cursor: pointer;
+}
+
+ul, ol {
+ list-style: none;
+}
+
+img, picture, video, canvas, svg {
+ display: block;
+ max-width: 100%;
+}
+
+.text-center {
+ text-align: center;
+}
