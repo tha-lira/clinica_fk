@@ -24,8 +24,8 @@
 }
 
 .about-description {
- font-size: 1rem;
- max-width: 1000px;
+ font-size: 1.1rem;
+ max-width: 1200px;
  margin: 1rem auto;
  line-height: 1.6;
 }
@@ -47,7 +47,18 @@
  object-fit: cover;
 }
 
+.image-004, .image-003{
+  display: none;
+}
+
 @media (min-width: 1200px) {
+  .about-subtitle {
+    font-size: 1.9rem;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
 
   .about-gallery {
     display: flex;
@@ -55,6 +66,10 @@
   }
   
   .about-gallery img {
-    width: 15rem;
+    width: 18rem;
+  }
+  
+  .image-004, .image-003{
+  display:block;
   }
 }

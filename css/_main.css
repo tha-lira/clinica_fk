@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import './_variables.css';
+
+/* Buttons */
+.btn {
+  font-weight: bold;
+  height: 3rem;
+  max-width: 15rem;
+  padding: var(--spacing-sm) 2rem;
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--transition-fast);
+  box-shadow: var(--box-shadow-light);
+  background-color: var(--color-primary);
+  color: var(--color-neutral-light);
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.01);
+  background-color: var(--color-secondary);
+}
+
+

@@ -7,12 +7,15 @@
 .contact-box__description-title{
  font-size: 1.5rem;
  margin-bottom: 1rem;
+ font-family: var(--font-secondary);
+ color: var(--primary-color);
 }
 
 .contact-box__title {
  font-size: 1.2rem;
  color: var(--primary-color);
  margin: 0.65rem 0;
+ font-family: var(--font-secondary);
 }
 
 .contact-box__image{
@@ -75,10 +78,12 @@
  .contact-box__description{
   width: 40%;
   flex-direction: column;
+  font-size: 1.2rem;
  }
 
  .contact-box__description-title{
-  font-size: 2rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
  }
 
  .contact-box__location iframe {

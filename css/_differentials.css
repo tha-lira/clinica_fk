@@ -11,6 +11,7 @@
  margin-bottom: 1.8rem;
  color: var(--neutral-light);
  text-align: center;
+ font-family: var(--font-secondary);
 }
 
 .differentials-box__content {
